@@ -10,7 +10,7 @@ class Channel extends Model
 
     public function discussions()
     {
-        return $this->hasMany(Discussion::class);
+       return $this->hasMany(Discussion::class);
     }
 
     protected $fillable=['name','slug'];
